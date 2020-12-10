@@ -48,10 +48,11 @@
   line-height: 20px;
   height: 180px;
   padding: 30px 40px;
+  text-align: justify;
 }
 
 .produto_info ul li {
-  background: #fec63d;
+  background: #2374ab;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 20px;
@@ -81,11 +82,11 @@
 }
 
 .orcamento div h2 {
-  color: #fec63d;
+  color: #2374ab;
 }
 
 .orcamento div h2:after {
-  background: #fec63d;
+  background: #2374ab;
 }
 
 .form {
@@ -104,7 +105,7 @@
 .form input {
   display: block;
   width: 100%;
-  border: 4px solid #fec63d;
+  border: 4px solid #2374ab;
   background: none;
   color: #fff;
   padding: 7px;
@@ -118,7 +119,7 @@
   display: block;
   width: 100%;
   height: 120px;
-  border: 4px solid #fec63d;
+  border: 4px solid #2374ab;
   background: none;
   color: #fff;
   padding: 7px;
@@ -140,7 +141,7 @@
 .orcamento_dados h3 {
   font-size: 18px;
   text-transform: uppercase;
-  color: #fec63d;
+  color: #2374ab;
   line-height: 25px;
   font-weight: bold;
 }
