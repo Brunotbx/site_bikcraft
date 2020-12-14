@@ -8,7 +8,7 @@ require "./PHPMailer/src/PHPMailer.php";
 require "./PHPMailer/src/SMTP.php";
   
 $email_envio = "bruno@mktouch.com.br";
-$email_pass = "culeador00";
+$email_pass = "******";
 
 $site_name = "Bikcraft";
 $site_url = "https://brunotbx.github.io/site_bikcraft/";
