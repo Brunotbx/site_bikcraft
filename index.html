@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
+    <script>document.documentElement.classList.add("js");</script>
   </head>
 
   <body>
@@ -35,17 +36,17 @@
     <!-- Section Intro -->
     <section class="introducao">
       <div class="container">
-        <h1>Bicicletas feitas a mão</h1>
-        <blockquote class="quote-externo">
+        <h1 data-anime="400" class="fadeInDown">Bicicletas feitas a mão</h1>
+        <blockquote data-anime="800" class="fadeInDown quote-externo">
           <p>"não tenha nada em sua casa que você não considere útil ou acredite ser bonito"</p>
         <cite>Willian Morris</cite>
         </blockquote>
-        <a href="produtos.html" class="btn btn01">Orçamento</a>
+        <a data-anime="1200" href="produtos.html" class="btn btn01">Orçamento</a>
       </div>
     </section>
 
     <!-- Section Produtos -->
-    <section class="produtos container">
+    <section class="produtos container fadeInDown" data-anime="1600">
       <h2 class="subtitulo">Produtos</h2>
       <ul class="produtos_lista">
 
@@ -83,7 +84,7 @@
     </section>
 
     <!-- Section Portfólio -->
-    <section class="portfolio">
+    <section class="portfolio fadeInDown" data-anime="1800">
       <div class="container">
         <h2 class="subtitulo">Portfólio</h2>
         <ul class="portfolio_lista">
@@ -173,6 +174,9 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/simple-anime.js" ></script>
+    <script src="./js/script.js"></script>
 
   </body>
 </html>
